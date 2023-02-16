@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    
+</head>
+<body>
+    <h1>Please Fill in All The Following Fields to Create a New Course:</h1>
+    <form>
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"><br>
+        <label for="subtitles_total_hours">Subtitles Total Hours:</label><br>
+        <input type="number" id="subtitles_total_hours" name="subtitles_total_hours"><br>
+        <label for="course_total_hours">Course Total Hours:</label><br>
+        <input type="number" id="course_total_hours" name="course_total_hours"><br>
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" name="price"><br>
+        <label for="rating">Rating:</label><br>
+        <input type="number" id="rating" name="rating"><br>
+        <label for="instructor">Instructor:</label><br>
+        <input type="text" id="instructor" name="instructor"><br><br>
+        <button>Submit</button><br><br>
+        <input type="text" id="testing" name="instructor"><br><br>
+        <button type="button" onclick="createCourse()" value = "Display">Test it</button><br><br>
+        <p id="demo"></p>
+    </form>
+
+    <script src="app.js" type="text/javaScript"></script>
+
+    
+
+    
+    <!-- <script>
+        const myFunction = () => {
+            var x = document.getElementById("testing").value;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script> -->
+</body>
+</html>
